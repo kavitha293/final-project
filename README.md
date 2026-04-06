@@ -75,7 +75,7 @@ Instead of static or pre-defined plans, the system dynamically adapts learning p
 
 #### 1. Clone Repository
 ```bash
-git clone https://github.com/Harshal-Bsys27/ai-study-planner.git
+git clone https://github.com/kavitha293/final-project.git
 cd ai-study-planner
 ```
 
@@ -314,6 +314,6 @@ Contributions are welcome! Feel free to:
 
 ---
 
-Made with dedication by Harshal Bsys27
+
 <!-- Pair programming commit -->
 
