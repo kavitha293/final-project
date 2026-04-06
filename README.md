@@ -240,37 +240,6 @@ ai-study-planner/
 └── README.md
 ```
 
-## 🚀Deployment
-
-### Deploy to Render
-
-1. **Push to GitHub**
-   ```bash
-   git add .
-   git commit -m "Deploy to Render"
-   git push origin main
-   ```
-
-2. **Create Backend Service**
-   - Visit render.com
-   - New Web Service
-   - Connect GitHub repo
-   - Build: `pip install -r backend/requirements.txt`
-   - Start: `cd backend && gunicorn app:app`
-   - Environment variables:
-     - FLASK_ENV=production
-     - SECRET_KEY=<random-key>
-     - CORS_ORIGINS=<frontend-url>
-
-3. **Create Frontend Service**
-   - New Static Site
-   - Build: `cd frontend && npm install && npm run build`
-   - Publish: `frontend/dist`
-   - Environment: VITE_API_URL=<backend-url>
-
-4. **Verify**
-   - Visit frontend URL
-   - Test registration and plan generation
 
 ## API Endpoints
 
