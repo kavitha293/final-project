@@ -6,8 +6,8 @@ import jwt
 from functools import wraps
 from dotenv import load_dotenv
 
-from models import db, User, StudyPlan, UserProgress, StudyNotes, StudySession
-from config import get_config
+from .models import db, User, StudyPlan, UserProgress, StudyNotes, StudySession
+from .config import get_config
 
 load_dotenv()
 
